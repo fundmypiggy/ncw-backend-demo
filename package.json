@@ -8,7 +8,7 @@
     "serve": "node dist/server.js",
     "dev": "nodemon src/server.ts",
     "migrate": "yarn run typeorm migration:run",
-    "start": "yarn migrate && yarn serve",
+    "start": "yarn serve",
     "test": "yarn jest",
     "lint": "yarn eslint src --fix",
     "typeorm": "ts-node ./node_modules/typeorm/cli.js -d src/data-source.ts",
